@@ -1,0 +1,237 @@
+
+
+@media(max-width: 1400px) {
+    .menu__list-link {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 12px 14px;
+      
+    }
+    .header__info-phone ,
+    .header__info-adress {
+        font-size: 16px;
+        line-height: 19px;
+        position: relative;
+        padding-left: 25px;
+        margin-right: 25px;
+    }
+    .header__info-phone{
+        padding-left: 30px;
+    }
+
+
+}
+@media(max-width: 1300px) {
+    .header__inner{
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .menu__list{
+        padding: 25px 0;
+    }
+    .header__info-phone::before{
+        bottom: 0;
+    }
+}
+
+
+@media(max-width: 1300px) {
+    .slider__banner {
+        margin-left: 410px;
+    }
+    .slider__descr-title {
+        font-size: 50px;
+        line-height: 60px;
+       
+    }
+    .slider__descr-text {
+        margin: 30px 0 50px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .slider__descr {
+        margin-left: 70px;
+    }
+  
+}
+@media(max-width: 1140px) {
+    .slider__banner-picture {
+        max-width: 399px;
+        bottom: -40px;
+    }
+    .slider__banner {
+        margin-left: 440px;
+    }
+  
+}
+
+@media(max-width: 940px) {
+    .products__item{
+        max-width: calc(50% - 20px);
+    }
+    .advantages__item {
+        display: block;
+        margin: 20px auto;
+    }
+    .advantages__inner {
+        padding: 35px 0 30px;
+    }
+    .advantages {
+        padding: 30px 0 30px;
+    }
+    .advantages__title{
+        text-align: center;
+    }
+    .footer__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__socials-title{
+        text-align: center;
+    }
+    .footer__socials{
+        width: 221px;
+    }
+    .footer__copy{
+        margin-left: 0;
+    }
+    .footer__menu{
+        margin-bottom: 20px;
+    }
+    .footer__col-logo{
+        width: 120px;
+        height: 120px;
+    }
+    
+}
+@media(max-width: 860px) {
+    .slider__banner {
+        margin-left: 330px;
+    }
+    .slider__banner-picture {
+        max-width: 299px;
+    }
+    
+}
+@media(max-width: 640px) {
+    .header__inner{
+        margin-bottom: 20px;
+    }
+    .menu__list{
+        justify-content: center;
+        max-width: 593px;
+    }
+    .menu__list-link {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .header__info-adress {
+        display: none;
+    }
+    .slider__banner {
+       display: none;
+    }
+    .slider__descr {
+        margin-left: 0;
+        text-align: center;
+    }
+    .slider__descr-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .slider__box-item {
+        min-height: 440px;
+    }
+    .slider__descr-text {
+        margin: 20px 0 30px;
+    }
+    .header__info-phone {
+        margin-right: 0;
+    }
+    .products__item {
+        margin-bottom: 20px;
+        margin-right: 20px;
+        flex-basis: calc(50% - 20px);
+    }
+    .about{
+        padding: 40px 0;
+        text-align: center;
+    }
+    .about__content{
+        display: block;
+    }
+    .about__content-descr {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+   
+    .about__text {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 31px;
+    }
+    .product-list__inner{
+        flex-direction: column;
+    }
+    .product-list__content{
+        order: 0;
+    }
+    .aside__body{
+        max-width: 100%;
+    }
+    .product-list__aside{
+        order: 1;
+        max-width: 100%;
+    }
+   
+    // .container__fluid{
+    //     padding: 0 10px;
+    // }
+    
+
+    
+}
+@media(max-width: 570px) {
+
+    .content__product-items{
+        justify-content: space-around;
+    }
+   
+   
+        
+    
+    
+}
+
+@media(max-width: 420px) {
+
+    
+   
+    .products__item {
+        width: 125px;
+    }  
+    .content__product-img{
+        // flex-basis: calc(50% - 40px);
+        width: 125px;
+    }  
+  
+        
+    
+    
+}
+@media(max-width: 381px) {
+    .slider__descr-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .slider__descr-text {
+   
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .menu__list-link {
+     
+        padding: 10px 8px;
+    }
+    
+}
